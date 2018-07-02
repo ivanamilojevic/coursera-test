@@ -6,8 +6,6 @@ body {
   font-weight: normal;
   font-size: 15px;  
   text-align: center; 
-  margin-left: 0;
-  margin-right: 0;
  
 }
 
@@ -32,16 +30,19 @@ section {
   background-color: #E9828F; 
   text-align: left;
   border: 1px solid black;
+  margin-bottom: 10PX;
 }
 #content2 {
   background-color: #DEB887;
   text-align: left;
   border: 1px solid black;
+  margin-bottom: 10px;
 }
 #content3 {
   background-color: #5F9EA0;
   border: 1px solid black;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 

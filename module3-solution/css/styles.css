@@ -1,0 +1,171 @@
+
+body {
+  font-size: 16px;
+  background-color: #701F34; 
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 1000px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#text_decoration a:hover{
+  text-decoration: none; 
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f5f5f5;
+  border-radius: 0;
+  border: 0;
+}
+
+.container1 {
+  margin:0px 25px 10px 25px; 
+}
+
+.navbar-brand {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Wendy One', sans-serif;
+  color: #581845;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #581845;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #581845;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+/* END HEADER */
+
+
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;  
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+/* HOME PAGE */
+
+.container2 {
+  margin: 0px 25px 10px 25px; 
+  text-align: left;
+  color: black;
+}
+
+p {
+  color: #581845;
+  font-size: 1.5em;
+  text-align: center;
+  font-style: bold;
+  margin-top: 5px;
+}
+
+.p2 {
+  float:right;
+  position: relative;
+  bottom: 0px;
+}
+
+p a:hover, .p2 a:focus {
+  text-decoration: none; 
+}
+
+section {
+  font-style: normal;
+  padding: 10px;
+ }
+
+.row {
+  width: 100%;
+  box-shadow: 0 0 10px #FA9569;
+  background-color: #F5F5F5;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    padding-bottom: 35px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-bottom: : 15px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Company name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
+
